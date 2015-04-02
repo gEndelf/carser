@@ -1,14 +1,20 @@
 # -*- coding: utf-8 -*-
 
-# Define here the models for your scraped items
-#
-# See documentation in:
-# http://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
-class AutoriaItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class AutoItem(scrapy.Item):
+    uid = scrapy.Field()
+    link = scrapy.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
+    prise_hrn = scrapy.Field()
+    prise_usd = scrapy.Field()
+    is_auction = scrapy.Field()
+    year = scrapy.Field()
+    mileage = scrapy.Field()
+    fuel = scrapy.Field()
+    created_at = scrapy.Field()
+    author = scrapy.Field()
+    author_phone = scrapy.Field()
+    author_ads_count = scrapy.Field()

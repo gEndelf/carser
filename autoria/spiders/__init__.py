@@ -1,4 +1,5 @@
-# This package will contain the spiders of your Scrapy project
-#
-# Please refer to the documentation for information on how to create and manage
-# your spiders.
+AJAX_HEADERS = {
+    'Accept': 'application/json, text/plain, */*',
+    'X-Requested-With': 'XMLHttpRequest',
+    'X-Request': 'JSON'
+}
