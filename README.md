@@ -7,8 +7,8 @@ Usage:
 
 ```scrapy crawl auto.ria.com -o cars.csv -a city=[city id] -a state=[state id]```
 
-**city id** - city ID from auto.ria.ua
-**state id** - region ID from auto.ria.ua
+* **city id** - city ID from auto.ria.ua
+* **state id** - region ID from auto.ria.ua
 
 Configuration:
 --------------
