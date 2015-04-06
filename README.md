@@ -1,4 +1,6 @@
-# Auto-RIA parser
+# List of parsers for car selling platforms
+
+## Auto-RIA parser (http://auto.ria.com/)
 
 Usage:
 ------
